@@ -76,7 +76,7 @@ minetest.register_craft({
 	output = "barn:barn_empty 1",
 	recipe = {
 		{'default:stick', 'default:stick','default:stick'},
-		{'default:wood','default:wood','default:wood'},
+		{'group:wood','group:wood','group:wood'},
 	}
 })
 
@@ -84,7 +84,7 @@ minetest.register_craft({
 	output = "barn:barn_small_empty 1",
 	recipe = {
 		{'default:stick', 'default:stick'},
-		{'default:wood','default:wood'},
+		{'group:wood','group:wood'},
 	}
 })
 
